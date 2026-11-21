@@ -1,5 +1,5 @@
 'use strict';
-const http=require('node:http');
+const http=require('http');
 const {WebSocketServer,WebSocket}=require('ws');
 const PORT=Number(process.env.PORT)||8795;
 const rooms=new Map();
