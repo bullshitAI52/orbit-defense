@@ -1,0 +1,9 @@
+{
+  "name": "orbit-defense-match-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lightweight WebSocket room matchmaking for Orbit Defense",
+  "main": "match-server.js",
+  "scripts": {"start": "node match-server.js"},
+  "dependencies": {"ws": "^8.18.0"}
+}
